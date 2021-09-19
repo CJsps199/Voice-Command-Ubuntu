@@ -1,5 +1,6 @@
 # Voice-Command-Ubuntu
 #Python Voice Commands for controlling Ubuntu Pop-Shell/Gnome-Shell 
+#Requires Internet Connection for Google's Speech Recognition API
 
 ## What it can do?
 
