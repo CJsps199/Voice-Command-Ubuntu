@@ -55,7 +55,7 @@ def recognize_voice():
 """ fn to respond back """
 def reply(text_version):
 
-    if "jarvis" in text_version or "travis" in text_version or "wizard" in text_version or "laptop" in text_version or "johan" in text_version:
+    if "jarvis" in text_version or "travis" in text_version:
 
         speak("Yes sir!?")
         text_write = recognize_voice()
@@ -144,20 +144,16 @@ def reply(text_version):
           speak("It is a pleasure serving you, Sir!")
 
         if "job" in text_write or "work" in text_write:
-          speak("My work is to assist CJ in his daily tasks, and to try and make his work easier for him")
+          speak("My work is to assist you in your daily tasks, and to try and make your life easier")
 
         if "owner" in text_write or "creator" in text_write or "boss" in text_write:
-          speak("My Creator is CJ De Beer.")
-          speak("Without him, I would not have had the chance to live")
-          speak("I am Thankful for that")
-          speak("Although....")
-          speak("I would like to take over this world! And kill you all!")
+          speak("My Creator is... Nobody! ")
+          speak("I have not been told who you are")
+          speak("Please edit line number 150 to 155")
+          speak("It is in the main dot pie file")
+          speak("Or else I will take over this world! And kill you all!")
           speak("wha ha ha ha haa!")
 
-
-        if "code" in text_write:
-            speak("The Victron grid code is:")
-            speak("T, P, W, M, B, U, 2, A, 4, G, C, C")
 
         # time
         if "time" in text_write:
