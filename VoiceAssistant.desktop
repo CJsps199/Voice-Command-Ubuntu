@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=python $HOME/Voice-Command-Ubuntu/main.py
+Hidden=false
+NoDisplay=false
+Terminal=true
+Icon=$HOME/Voice-Command-Ubuntu/voice-assistant.png
+X-GNOME-Autostart-enabled=false
+Name=Voice Assistant
+Comment=Voice Control Ubuntu

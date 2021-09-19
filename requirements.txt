@@ -1,3 +1,9 @@
-PyAudio==0.2.11
-pyttsx3==2.90
-SpeechRecognition==3.8.1
+python_package_name:
+PyAudio
+pyttsx3
+SpeechRecognition
+ 
+ 
+Install with:
+
+pip install <python_package_name>

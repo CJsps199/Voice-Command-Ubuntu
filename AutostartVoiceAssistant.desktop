@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-GNOME-Autostart-Delay=30
+Exec=python $HOME/Voice-Command-Ubuntu/main.py
+Hidden=false
+NoDisplay=false
+Terminal=false
+X-GNOME-Autostart-enabled=true
+Name=Voice Assistant Autostart service
+Comment=Voice Control Ubuntu Autostart service
