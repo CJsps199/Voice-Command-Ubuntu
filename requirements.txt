@@ -1,9 +1,14 @@
+apt_package_name:
+  xdotool
+
 python_package_name:
-PyAudio
-pyttsx3
-SpeechRecognition
+  PyAudio
+  pyttsx3
+  SpeechRecognition
  
  
 Install with:
+
+sudo apt install <apt_package_name>
 
 pip install <python_package_name>
