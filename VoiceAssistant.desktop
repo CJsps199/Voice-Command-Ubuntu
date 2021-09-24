@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=python $HOME/Voice-Command-Ubuntu/main.py
+Exec=sh -c "cd ~/Voice-Command-Ubuntu/ ; python main.py"
 Hidden=false
 NoDisplay=false
 Terminal=true
